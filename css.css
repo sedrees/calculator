@@ -1,24 +1,37 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&family=Montserrat:wght@300&display=swap');
 
+html, body {
+    height:100%;
+}
+body {
+    height:100%;
+    background: rgb(62,63,130);
+    background: linear-gradient(315deg, rgba(62,63,130,1) 0%, rgba(198,115,221,1) 35%, rgba(177,147,223,1) 100%);
 }
 
-h1 { text-align:center; }
+h1 { 
+    text-align:center; 
+    font-family:'Cherry Swash', Verdana, Arial, sans-serif;
+    font-size:3em;
+}
 
 main {
     margin:0 auto;
     width:30%;
-    height:30%;
     padding:1em;
-    border:1px solid rebeccapurple;
     border-radius:4px;
+    background-color:#292929;
 }
 
 #input {
     width:100%;
-    border:1px solid black;
+    border:1px solid #e2e2e2;
+    border-radius:1px;
+    background-color:#cecece;
     margin-bottom:1em;
 }
 #input span {
+    font-family:'Montserrat', Verdana, Arial, sans-serif;
     font-size:2em;
     display:block;
     padding:2.5%;
@@ -38,6 +51,7 @@ main {
 .clear { width:100%; }
 
 .primary {
+    font-family:'Montserrat', Verdana, Arial, sans-serif;
     margin:3%;
     font-size:2em;
 }
